@@ -1,7 +1,7 @@
 {
   "name": "avious",
   "version": "1.0.0",
-  "description": "Avi's consolidated Claude Code plugin: all Avious-prefixed slash commands and skills in one place. Cowork workspace routing (handoff, resume, log, close, index, scaffold, documentation), prompt utilities (refine-prompt, prompt-coach), prose polishing (GPT-Polish), YouTube transcript fetcher (yt-transcript), and Bandung kos search.",
+  "description": "Avi's consolidated Claude Code plugin: all Avious-prefixed slash commands and skills in one place. Cowork workspace routing (handoff, resume, log, close, index, scaffold, documentation, workspace-optimizer), prompt utilities (refine-prompt, prompt-coach), prose polishing (GPT-Polish), YouTube transcript fetcher (yt-transcript), and Bandung kos search.",
   "author": {
     "name": "Avi"
   },

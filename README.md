@@ -17,6 +17,7 @@ Cowork workspace routing:
 - `Avious-index` — re-read the `START_HERE.md` router.
 - `Avious-scaffold` — bootstrap the three-layer routing structure in a workspace.
 - `Avious-documentation` — create an `.md` guide and save it to one of three preset locations.
+- `Avious-workspace-optimizer` — passively log workspace session usage via a cross-platform Stop hook, then run `/Avious-optimize-workspace` for a ranked punch list of routing fixes (rarely-used rooms, files to promote, stale handoffs, anti-patterns).
 
 Prompt utilities:
 - `Avious-refine-prompt` — rewrite a draft prompt using Anthropic's prompting best practices.
