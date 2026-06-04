@@ -8,6 +8,14 @@ description: |
 
 Capture the current chat snippet to a room in the workspace, picked dynamically based on what rooms exist in this project.
 
+## Core principle: preserve, don't degrade
+
+Default to **preserving** the richest version of the snippet, not summarizing it. Capturing means keeping the detail the user worked to assemble — clean it up and format it, but do not condense it away.
+
+- **Never silently drop hard data.** Links/URLs, IDs, exact doses, numbers, prices, code, file paths, command strings, and verbatim quotes must survive into the logged file. If a table or list in the chat had a column of links, the saved file keeps that column.
+- **When the user references something they liked** ("the chart you made", "the version with the links"), reconstruct the **most complete** version from the conversation — merge the best columns/fields if better versions appeared across different messages. Do not regenerate a leaner version from scratch.
+- If you genuinely must omit something, say so in your confirmation message rather than dropping it silently.
+
 ## Procedure
 
 1. **Determine the workspace folder** from the session context.

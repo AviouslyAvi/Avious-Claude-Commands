@@ -18,6 +18,15 @@ A workflow for researching, drafting, reviewing, and saving structured compariso
 
 Avi frequently compares tools, apps, and technologies and saves the results as markdown notes in his Obsidian vault. This skill standardizes that workflow so every comparison is well-researched, consistently formatted, visually rich, and only saved after explicit approval.
 
+## Core principle: preserve, don't degrade
+
+Default to **preserving** the richest version of the comparison, not summarizing it. "Polished" means clean structure and formatting — it does NOT mean shorter, condensed, or stripped of detail. When in doubt, keep more.
+
+- **Never silently drop hard data.** Links/URLs, source citations, exact prices, tier numbers, limits, benchmark figures, version numbers, and verbatim quotes must survive into the saved markdown. If the comparison surfaced a column of links or specific figures, the saved file keeps them.
+- **When the user references something they liked** ("the version with the links", "the chart you made", "what I had earlier"), reconstruct the **most complete** version from the conversation — merge the best columns/fields if better versions appeared across different messages. Do not regenerate a leaner version from scratch.
+- **Editing an existing comparison is additive by default.** When asked to revise/update, change only what was asked and preserve everything else (including frontmatter, sources, and prior detail). Never replace a detailed table with a summarized one unless the user explicitly asks you to cut it down.
+- If you genuinely must omit something for length or format reasons, say so when you present the draft rather than dropping it silently.
+
 ## Destination
 
 All comparisons are saved to:
