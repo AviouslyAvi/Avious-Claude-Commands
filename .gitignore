@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# Personal skill — kept local, hidden from GitHub
+skills/Avious-bandung-kos-search/

@@ -18,13 +18,16 @@ Cowork workspace routing:
 - `Avious-scaffold` — bootstrap the three-layer routing structure in a workspace.
 - `Avious-documentation` — create an `.md` guide and save it to one of three preset locations.
 - `Avious-workspace-optimizer` — passively log workspace session usage via a cross-platform Stop hook, then run `/Avious-optimize-workspace` for a ranked punch list of routing fixes (rarely-used rooms, files to promote, stale handoffs, anti-patterns).
+- `Avious-week` — summarize the current ISO week's auto-generated daily notes from the Learning Roadmap inline in chat (mid-week digest, nothing written to disk).
 
 Prompt utilities:
 - `Avious-refine-prompt` — rewrite a draft prompt using Anthropic's prompting best practices.
 - `Avious-prompt-coach` — auto-trigger clarifying questions when a request is short or ambiguous.
 
-Domain-specific:
-- `Avious-bandung-kos-search` — search/rank kos-kosan rentals in Bandung, Indonesia.
+Prose & research:
+- `Avious-eli-canti` — rewrite technical or abstract explanations in Çanti's interest-based, metaphor-first language (no jargon).
+- `Avious-simplify-response` — rewrite the previous response in plain, everyday language for a non-technical reader.
+- `Avious-compare-and-save` — research and generate a structured side-by-side comparison of tools or services, then save it as markdown to the Obsidian vault.
 
 ## Install
 
